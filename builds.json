@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-10T09:31:00.1113736\u002B00:00",
+  "generated": "2026-11-10T14:50:09.9160705\u002B00:00",
   "clients": {
     "14393": {
       "name": "Windows 10 1607",
-      "endOfSupport": null,
+      "endOfSupport": "2026-10-13",
       "cus": [
         {
           "month": "2025-11",
@@ -57,7 +57,7 @@
     },
     "17763": {
       "name": "Windows 10 1809",
-      "endOfSupport": null,
+      "endOfSupport": "2029-01-09",
       "cus": [
         {
           "month": "2025-11",
@@ -109,9 +109,19 @@
         }
       ]
     },
+    "19042": {
+      "name": "Windows 10 20H2",
+      "endOfSupport": "2023-05-09",
+      "cus": []
+    },
+    "19043": {
+      "name": "Windows 10 21H1",
+      "endOfSupport": "2022-12-13",
+      "cus": []
+    },
     "19044": {
       "name": "Windows 10 21H2",
-      "endOfSupport": null,
+      "endOfSupport": "2027-01-12",
       "cus": [
         {
           "month": "2025-11",
@@ -165,7 +175,7 @@
     },
     "19045": {
       "name": "Windows 10 22H2",
-      "endOfSupport": null,
+      "endOfSupport": "2025-10-14",
       "cus": [
         {
           "month": "2025-11",
@@ -213,9 +223,14 @@
         }
       ]
     },
+    "22000": {
+      "name": "Windows 11 21H2",
+      "endOfSupport": "2024-10-08",
+      "cus": []
+    },
     "22621": {
       "name": "Windows 11 22H2",
-      "endOfSupport": null,
+      "endOfSupport": "2025-10-14",
       "cus": [
         {
           "month": "2025-12",
@@ -225,7 +240,7 @@
     },
     "22631": {
       "name": "Windows 11 23H2",
-      "endOfSupport": null,
+      "endOfSupport": "2026-11-10",
       "cus": [
         {
           "month": "2025-11",
@@ -279,7 +294,7 @@
     },
     "26100": {
       "name": "Windows 11 24H2",
-      "endOfSupport": null,
+      "endOfSupport": "2027-10-12",
       "cus": [
         {
           "month": "2025-11",
@@ -333,7 +348,7 @@
     },
     "26200": {
       "name": "Windows 11 25H2",
-      "endOfSupport": null,
+      "endOfSupport": "2028-10-10",
       "cus": [
         {
           "month": "2025-11",
@@ -387,7 +402,7 @@
     },
     "26300": {
       "name": "Windows 11 26H2",
-      "endOfSupport": null,
+      "endOfSupport": "2029-10-09",
       "cus": [
         {
           "month": "2026-10",
@@ -397,7 +412,7 @@
     },
     "28000": {
       "name": "Windows 11 26H1",
-      "endOfSupport": null,
+      "endOfSupport": "2029-03-13",
       "cus": [
         {
           "month": "2026-02",
@@ -441,7 +456,7 @@
   "servers": {
     "6003": {
       "name": "Windows Server 2008",
-      "endOfSupport": null,
+      "endOfSupport": "2020-01-14",
       "cus": [
         {
           "month": "2025-11",
@@ -459,7 +474,7 @@
     },
     "7601": {
       "name": "Windows Server 2008 R2",
-      "endOfSupport": null,
+      "endOfSupport": "2020-01-14",
       "cus": [
         {
           "month": "2025-11",
@@ -477,7 +492,7 @@
     },
     "9200": {
       "name": "Windows Server 2012",
-      "endOfSupport": null,
+      "endOfSupport": "2023-10-10",
       "cus": [
         {
           "month": "2025-11",
@@ -531,7 +546,7 @@
     },
     "9600": {
       "name": "Windows Server 2012 R2",
-      "endOfSupport": null,
+      "endOfSupport": "2023-10-10",
       "cus": [
         {
           "month": "2025-11",
@@ -585,7 +600,7 @@
     },
     "14393": {
       "name": "Windows Server 2016",
-      "endOfSupport": null,
+      "endOfSupport": "2027-01-12",
       "cus": [
         {
           "month": "2025-11",
@@ -639,7 +654,7 @@
     },
     "17763": {
       "name": "Windows Server 2019",
-      "endOfSupport": null,
+      "endOfSupport": "2029-01-09",
       "cus": [
         {
           "month": "2025-11",
@@ -693,7 +708,7 @@
     },
     "20348": {
       "name": "Windows Server 2022",
-      "endOfSupport": null,
+      "endOfSupport": "2031-10-14",
       "cus": [
         {
           "month": "2025-11",
@@ -747,7 +762,7 @@
     },
     "25398": {
       "name": "Windows Server 2022, 23H2 Edition",
-      "endOfSupport": null,
+      "endOfSupport": "2025-10-24",
       "cus": [
         {
           "month": "2025-11",
@@ -781,7 +796,7 @@
     },
     "26100": {
       "name": "Windows Server 2025",
-      "endOfSupport": null,
+      "endOfSupport": "2034-11-14",
       "cus": [
         {
           "month": "2025-11",
@@ -830,6 +845,119 @@
         {
           "month": "2026-10",
           "ubr": 33650
+        }
+      ]
+    }
+  },
+  "macos": {
+    "11": {
+      "endOfSupport": "2023-09-26",
+      "releases": [
+        {
+          "version": "11.7.11",
+          "posted": "2026-08-06"
+        }
+      ]
+    },
+    "12": {
+      "endOfSupport": "2024-09-16",
+      "releases": [
+        {
+          "version": "12.7.6",
+          "posted": "2026-08-06"
+        }
+      ]
+    },
+    "13": {
+      "endOfSupport": "2025-09-15",
+      "releases": [
+        {
+          "version": "13.7.8",
+          "posted": "2026-08-06"
+        }
+      ]
+    },
+    "14": {
+      "endOfSupport": "2026-09-14",
+      "releases": [
+        {
+          "version": "14.8.9",
+          "posted": "2026-08-06"
+        }
+      ]
+    },
+    "15": {
+      "endOfSupport": null,
+      "releases": [
+        {
+          "version": "15.7.9",
+          "posted": "2026-08-06"
+        },
+        {
+          "version": "15.8",
+          "posted": "2026-09-14"
+        },
+        {
+          "version": "15.8.1",
+          "posted": "2026-09-28"
+        },
+        {
+          "version": "15.8.2",
+          "posted": "2026-10-26"
+        },
+        {
+          "version": "15.8.3",
+          "posted": "2026-11-09"
+        }
+      ]
+    },
+    "26": {
+      "endOfSupport": null,
+      "releases": [
+        {
+          "version": "26.6.1",
+          "posted": "2026-08-06"
+        },
+        {
+          "version": "26.6.2",
+          "posted": "2026-08-17"
+        },
+        {
+          "version": "26.7",
+          "posted": "2026-09-14"
+        },
+        {
+          "version": "26.7.1",
+          "posted": "2026-09-28"
+        },
+        {
+          "version": "26.7.2",
+          "posted": "2026-10-26"
+        },
+        {
+          "version": "26.7.3",
+          "posted": "2026-11-09"
+        }
+      ]
+    },
+    "27": {
+      "endOfSupport": null,
+      "releases": [
+        {
+          "version": "27.0",
+          "posted": "2026-09-14"
+        },
+        {
+          "version": "27.0.1",
+          "posted": "2026-09-28"
+        },
+        {
+          "version": "27.2",
+          "posted": "2026-10-26"
+        },
+        {
+          "version": "27.2.1",
+          "posted": "2026-11-09"
         }
       ]
     }
